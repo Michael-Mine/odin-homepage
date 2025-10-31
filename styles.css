@@ -113,7 +113,12 @@ h6 {
   src: url("./fonts/lato-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+:root {
+  --colour-white: #f9f9f9;
+}
+
 body {
+  background-color: var(--colour-white);
   font-family: "Lato";
 }
 
@@ -122,3 +127,26 @@ h2,
 h3 {
   font-family: "Montserrat";
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-content: center; */
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* My CSS declaration Order
+    Positioning
+    Display
+    Colour
+    Text
+    Other */
