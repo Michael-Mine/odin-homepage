@@ -131,14 +131,26 @@ h3 {
 header {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-content: center; */
   padding: 20px;
   gap: 10px;
   text-align: center;
 }
 
+.header-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  color: var(--colour-white);
+}
+
 .icons {
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   gap: 15px;
