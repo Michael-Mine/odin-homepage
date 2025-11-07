@@ -115,6 +115,7 @@ h6 {
 
 :root {
   --colour-white: #f9f9f9;
+  --colour-spurs: #132257;
 }
 
 body {
@@ -157,7 +158,8 @@ h1 {
   color: var(--colour-white);
 }
 
-.icons {
+.header-icons,
+.project-icons {
   margin-top: 5px;
   display: flex;
   justify-content: center;
@@ -196,6 +198,30 @@ section {
 .project-description {
   min-height: 120px;
   padding: 0px 10px;
+}
+
+.footer-container {
+  padding: 20px;
+  background-color: var(--colour-spurs);
+  color: var(--colour-white);
+}
+
+.footer-icons-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-icon {
+  filter: invert(99%) sepia(6%) saturate(26%) hue-rotate(256deg)
+    brightness(108%) contrast(95%);
+}
+
+.footer-pic {
+  height: 375px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* My CSS declaration Order
