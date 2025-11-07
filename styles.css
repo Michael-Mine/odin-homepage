@@ -121,6 +121,11 @@ h6 {
 body {
   background-color: var(--colour-white);
   font-family: "Lato";
+  background: linear-gradient(
+    160deg,
+    var(--colour-spurs) 14%,
+    var(--colour-white) 14%
+  );
 }
 
 h1,
