@@ -211,6 +211,13 @@ section {
   color: var(--colour-white);
 }
 
+.footer-contact {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
 .footer-icons-container {
   padding: 20px;
   display: flex;
@@ -227,6 +234,29 @@ section {
   height: 375px;
   width: 100%;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .footer-icons-container {
+    justify-content: left;
+    padding-left: 0;
+  }
+
+  .footer-pic {
+    padding: 30px;
+    background-color: var(--colour-spurs);
+  }
+}
+
+@media (min-width: 1024px) {
 }
 
 /* My CSS declaration Order
