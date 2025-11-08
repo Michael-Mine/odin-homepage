@@ -185,11 +185,11 @@ section {
 
 .project {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .project-image {
-  height: 320px;
+  height: 220px;
   width: 100%;
   object-fit: cover;
 }
