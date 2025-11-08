@@ -205,10 +205,13 @@ section {
   padding: 0px 10px;
 }
 
-.footer-container {
-  padding: 20px;
+footer {
   background-color: var(--colour-spurs);
   color: var(--colour-white);
+}
+
+.footer-container {
+  padding: 20px;
 }
 
 .footer-contact {
@@ -236,6 +239,12 @@ section {
   object-fit: cover;
 }
 
+/* .footer-pic-large {
+  height: 375px;
+  width: 100%;
+  background-image: cover;
+} */
+
 @media (min-width: 768px) {
   h2 {
     text-align: left;
@@ -252,7 +261,7 @@ section {
 
   .footer-pic {
     padding: 30px;
-    background-color: var(--colour-spurs);
+    max-width: 555px;
   }
 }
 
