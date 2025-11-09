@@ -239,12 +239,6 @@ footer {
   object-fit: cover;
 }
 
-/* .footer-pic-large {
-  height: 375px;
-  width: 100%;
-  background-image: cover;
-} */
-
 @media (min-width: 768px) {
   header {
     flex-direction: row;
@@ -256,8 +250,6 @@ footer {
   }
 
   .about {
-    /* display: flex;
-    flex-direction: column; */
     width: 100%;
     margin: 60px 0px;
     padding: 40px 10px;
@@ -267,7 +259,6 @@ footer {
   }
 
   .header-icons {
-    /* margin-top: 25px; */
     justify-content: left;
     padding: 10px;
   }
